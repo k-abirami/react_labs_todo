@@ -8,7 +8,7 @@ const App = () => {
 const [editingText, setEditingText] = React.useState("");
 
 
-// useEffect hook will be responsible to save new todos into localstorage
+//useEffect hook will be responsible to save new todos into localstorage
 React.useEffect(() => {
     const json = localStorage.getItem("todos");
     const loadedTodos = JSON.parse(json);
